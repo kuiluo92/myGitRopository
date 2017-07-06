@@ -1,0 +1,64 @@
+﻿@charset "utf-8";
+/*==================全局样式===================*/
+* {margin:0; padding:0;}
+img{border:0;}
+P{margin: 15 0px 0px 0px;}
+
+BODY {height:auto; color:#333333; font-size:12px; margin:0px auto; margin-top:0px; font-family:Arial, Helvetica, sans-serif!important; font-family: "宋体","SimSun"; background-color:#fff; line-height:200%;
+}
+
+UL,OL {
+    padding:0px; border:0px; list-style-type:none;
+}
+
+A:link {color:#3598db; text-decoration:none;}
+A:visited {color:#3598db; text-decoration:none;}
+A:hover {color:#3598db; text-decoration:underline;}
+A:active {color:#3598db; text-decoration:none;}
+
+.float_left{float:left;}
+.float_right{float:right;}
+.float_le{float:left; width:100%;}
+
+  
+   /* 页码 */
+   .pages_w{ width:100%; float:left;}
+   .pages_left_font{float:left; color:#6fbe46; height:23px; line-height:23px; margin-top:10px;}
+   
+   .pages{height:23px; line-height:23px; color:#666666; overflow:hidden; font-family:Arial, Helvetica; margin-top:10px; float:right; } 
+   .pages li{float:left; text-align:center; margin-left:5px;} 
+   .pages01{background:url(../images/pagenum.gif) 0px 0px no-repeat; width:23px; height:23px; float:left;}
+   .pages06{ font-size:12px;}
+   .jump_input{ border:#aaaaaa 1px solid; width:35px; color:#666; margin-left:2px; margin-right:2px;}   
+   #pages_btn{width:53px; height:22px; line-height:22px; text-align:center; color:#000;}
+   #pages_btn a:link{width:53px; height:22px; line-height:22px; text-align:center; color:#000; background:url(../images/btn05.gif) no-repeat; text-decoration:none;}
+   #pages_btn a:visited{width:53px; height:22px; line-height:22px; text-align:center; color:#000; background:url(../images/btn05.gif) no-repeat; text-decoration:none;}
+   #pages_btn a:hover{width:53px; height:22px; line-height:22px; text-align:center; color:#fff; background:url(../images/btn05.gif) 0px -23px no-repeat; text-decoration:none; font-weight:normal;}
+   #pages_btn a:active{width:53px; height:22px; line-height:22px; text-align:center; color:#000; background:url(../images/btn05.gif) no-repeat; text-decoration:none;}   
+   .pages li a:link{background:url(../images/pagenum.gif) 0px 0px no-repeat;  width:23px; height:23px; float:left; text-decoration:none; color:#666666;}
+   .pages li a:visited{background:url(../images/pagenum.gif) 0px 0px no-repeat;  width:23px; height:23px; float:left; text-decoration:none; color:#666666;}
+   .pages li a:hover{background:url(../images/pagenum.gif) 0px -23px no-repeat;  width:23px; height:23px; float:left; text-decoration:none; color:#fff;}
+   .pages li a:active{background:url(../images/pagenum.gif) 0px -23px no-repeat;  width:23px; height:23px; float:left; text-decoration:none; color:#fff;}
+   #pages02a a:link{background:url(../images/pagenum.gif) 0px -46px no-repeat; width:23px; height:23px; display:block;}
+   #pages02a a:visited{background:url(../images/pagenum.gif) 0px -46px no-repeat; width:23px; height:23px; display:block;}
+   #pages02a a:hover{background:url(../images/pagenum.gif) 0px -69px no-repeat; width:23px; height:23px; display:block;}
+   #pages02a a:active{background:url(../images/pagenum.gif) 0px -46px no-repeat; width:23px; height:23px; display:block;}
+   
+   #pages03a a:link{background:url(../images/pagenum.gif) 0px -92px no-repeat; width:23px; height:23px; display:block;}
+   #pages03a a:visited{background:url(../images/pagenum.gif) 0px -92px no-repeat; width:23px; height:23px; display:block;}
+   #pages03a a:hover{background:url(../images/pagenum.gif) 0px -115px no-repeat; width:23px; height:23px; display:block;}
+   #pages03a a:active{background:url(../images/pagenum.gif) 0px -92px no-repeat; width:23px; height:23px; display:block;}
+   
+   #pages04a a:link{background:url(../images/pagenum.gif) 0px -138px no-repeat; width:23px; height:23px; display:block;}
+   #pages04a a:visited{background:url(../images/pagenum.gif) 0px -138px no-repeat; width:23px; height:23px; display:block;}
+   #pages04a a:hover{background:url(../images/pagenum.gif) 0px -161px no-repeat; width:23px; height:23px; display:block;}
+   #pages04a a:active{background:url(../images/pagenum.gif) 0px -138px no-repeat; width:23px; height:23px; display:block;}
+   
+   #pages05a a:link{background:url(../images/pagenum.gif) 0px -184px no-repeat; width:23px; height:23px; display:block;}
+   #pages05a a:visited{background:url(../images/pagenum.gif) 0px -184px no-repeat; width:23px; height:23px; display:block;}
+   #pages05a a:hover{background:url(../images/pagenum.gif) 0px -207px no-repeat; width:23px; height:23px; display:block;}
+   #pages05a a:active{background:url(../images/pagenum.gif) 0px -184px no-repeat; width:23px; height:23px; display:block;}
+      
+   #pages0a{background:url(../images/pagenum.gif) 0px -230px no-repeat; width:23px; height:23px; display:block; color:#ffffff;}
+  
+   /* 页码结束 */

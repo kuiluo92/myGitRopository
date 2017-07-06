@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/rum.css" type="text/css" rel="stylesheet"/>
+<meta charset="utf-8" />
+<title>分页插件</title>
+
+</head>
+<body>
+<br><br><br>
+
+<div class="float_right"></div>
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/page.js"></script>
+<script>
+	var p = new PagePojo();
+	p.setTotalcount(333);
+	p.setCurpage(1);
+	p.setPagesize(15);
+	
+    $(".float_right").createPage({
+		attr:'',//target="#appList" action="openPage" animation="false"
+	    aclass:"page-button",
+	    pagesize:p.getPagesize(),
+	    totalCount:p.getTotalcount(),
+        curpage:p.getCurpage(),
+        callback:function(q){
+        	p.setCurpage(q);
+
+        	//数据集合分页所调用的逻辑
+        }
+    });
+	
+	//定义一个分页pojo类来管理数据集合分页所需要参数
+function PagePojo(){
+	var totalcount;
+	var curpage;
+	var pagesize;
+	
+	this.setTotalcount = function(totalcount) {
+        this.totalcount = totalcount;
+    };
+    this.getTotalcount = function() {
+        return this.totalcount
+    }
+	
+	this.setCurpage = function(curpage) {
+        this.curpage = curpage;
+    };
+    this.getCurpage = function() {
+        return this.curpage
+    }
+	
+	this.setPagesize = function(pagesize) {
+        this.pagesize = pagesize;
+    };
+    this.getPagesize = function() {
+        return this.pagesize
+    }
+}
+</script>
+</body>
+</html>
